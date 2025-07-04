@@ -1,0 +1,968 @@
+Received: from CH3PPF8A3B854A7.namprd06.prod.outlook.com
+ (2603:10b6:61f:fc00::437) by CO6PR06MB7697.namprd06.prod.outlook.com with
+ HTTPS; Fri, 20 Jun 2025 11:10:31 +0000
+Received: from BL4PR06MB9574.namprd06.prod.outlook.com (2603:10b6:208:4e2::10)
+ by CH3PPF8A3B854A7.namprd06.prod.outlook.com (2603:10b6:61f:fc00::437) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8835.28; Fri, 20 Jun
+ 2025 11:10:28 +0000
+Received: from BL4PR06MB9574.namprd06.prod.outlook.com
+ ([fe80::b32b:f1fd:f400:ef67]) by BL4PR06MB9574.namprd06.prod.outlook.com
+ ([fe80::b32b:f1fd:f400:ef67%4]) with mapi id 15.20.8835.027; Fri, 20 Jun 2025
+ 11:10:27 +0000
+From: "HaranS, Hari" <Hari.HaranS@jetblue.com>
+To: "Rottina, Michael" <Michael.Rottina@jetblue.com>, "Johncharles, Joseleo"
+	<Joseleo.Johncharles@jetblue.com>, "Obradovic, Zoran"
+	<Zoran.Obradovic@jetblue.com>, "Smith, Richard" <Richard.Smith3@jetblue.com>,
+	"Giles, Timothy" <Timothy.Giles@jetblue.com>, "Kandregula, Roopesh Babu"
+	<RoopeshBabu.Kandregula@jetblue.com>
+CC: "Jain, Rohit" <Rohit.Jain@jetblue.com>, "Agrawal, Punit"
+	<Punit.Agrawal@jetblue.com>, "Ghosh, Jagannath"
+	<Jagannath.Ghosh2@jetblue.com>, "Sankar, Santhoshkumar"
+	<Santhoshkumar.Sankar@jetblue.com>, "Signoffs - Internal: Webservices Team"
+	<7122ac55.jetblue.onmicrosoft.com@amer.teams.ms>
+Subject: WEB-3162 Sabre CI Read Profile - Enhancement (Add another endpoint
+ search via Email) EQA Sign-off
+Thread-Topic: WEB-3162 Sabre CI Read Profile - Enhancement (Add another
+ endpoint search via Email) EQA Sign-off
+Thread-Index: Advh03o/yUaajDuxTGuLulyVewH9kw==
+Date: Fri, 20 Jun 2025 11:10:27 +0000
+Message-ID:
+	<BL4PR06MB957400218633EFF94AEE3647EB7CA@BL4PR06MB9574.namprd06.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BL4PR06MB9574.namprd06.prod.outlook.com
+X-MS-Exchange-Organization-ComplianceLabelId:
+	d8fd33c1-529e-4e68-8f92-c8eafbfe4aa2
+X-MS-Exchange-Organization-SupervisoryReview-OcrResultLocation:
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	a3858a71-2161-4b0f-1685-08ddafeb1007
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	eFP6P6IntAjpT6k0m37qQUJHQ6bhFzILpmpE8F/pPex7RlyEtZESBsTX5xcd9X1ZDSiM2Kq9U3q2p9m+U0L9xtyl/rRp7BjmO6lztjaTHRztnuxQ22SubR0uc7OMIdMDxVVpsPXzkxW7/s+ivbZ8IKOxXzDOXL29jNoK1pQrTVYORZM3wB1Y8neYQO2yo3QRNqdgsnj5SwU2vzpcFN+G9Rnf1SXnairQRcLh56I1ct4IZG0DkkaH/CSFLbfZZ9HL03X/przPs7cgDQORouSm/9xio01WRzwqXqijTmP6o4bBddGvFpYreX0Pdz3/wKzgrrcPp6JfYjoYcwdEJNw2Z4uqiORK8bpzCwRaN6khLS/qqvm45s6AGf6AU4l25MntuncgEYA1/ehJMw7Qzhgp+NH73H2O/lG+lPY5KomJxzQzQlACEEhMZm0taGHJOzuikTKNt263kKe3PgrwQ5qJ0pgM0VwKzt8qN42l2YsSzw0tWDgMDn0cw8memcMS/gE1aHUOk5fQBrGXpRbcyjC+VII0gqCHmB1hy/Slx4dtDL3rWzRgGQw3ul1OfQmNblMqXIqKYS3up/ZwxXzVZWOd10J78Yr7IIgqC1FnYYTixco9twaqT9aKNbHz48/xW4NdHdmqfVPiuk6qHIFyMuzNptPEgjCNERF3VSnXIzHeXiKG2svT+urzKpR5Dlml4KB8Wn8PKi2TwJvrHc6mS+0YE9AJ3zOibXVDmCnMaH8bq+9jvHhk9k2+i+eYXq+4GKeP6gdZSIEOnBH3/seuC/IpBeeatOjLtnJRpNnkzo88pmP7asMR/dvHRB7gyl1bD2u3
+Content-Type: multipart/alternative;
+	boundary="_000_BL4PR06MB957400218633EFF94AEE3647EB7CABL4PR06MB9574namp_"
+MIME-Version: 1.0
+
+--_000_BL4PR06MB957400218633EFF94AEE3647EB7CABL4PR06MB9574namp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Team,
+
+
+
+Please see the below  EQA SIGNOFF from non-prod Env for WEB-3162 Sabre CI R=
+ead Profile - Enhancement (Add another endpoint search via Email).
+
+
+
+Service Name
+
+cpSabreCIRead Service
+
+Testing Summary
+
+Non-prod
+
+
+
+EQA Sign OFF
+
+Yes
+
+Engineer
+
+Hari
+
+Date
+
+20/06/2025
+
+Summarizing Status
+
+Number of Cycles Completed
+
+1
+
+Total Number of Scenarios per cycle
+
+20
+
+Number of Scenarios Passed
+
+20
+
+Number of Scenarios Failed
+
+0
+
+Number of Scenarios Not Applicable
+
+0
+
+% Completion
+
+100
+
+JIRA ticket
+
+https://jetblueairways.atlassian.net/browse/WEB-3162<https://nam11.safelink=
+s.protection.outlook.com/?url=3Dhttps%3A%2F%2Fjetblueairways.atlassian.net%=
+2Fbrowse%2FWEB-3162&data=3D05%7C02%7CSanthoshkumar.Sankar%40jetblue.com%7Ca=
+3858a7121614b0f168508ddafeb1007%7Cd92170739527487c9687b6bbd93ed621%7C0%7C0%=
+7C638860146315040226%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOi=
+IwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C=
+&sdata=3DpQU%2FcWlmqbgbhf%2BoDZ37wyAk9LEX5qmQBAIRZHIm7I0%3D&reserved=3D0>
+
+
+
+Base URL
+
+https://loyalty-api-nprd.jetblue.com<https://loyalty-api-nprd.jetblue.com/>
+
+
+
+Endpoint
+
+/cb-cp-sabreci/v1/creditprofile/cpSabreCIRead/loginID/<http://cb-cp-sabreci=
+/v1/creditprofile/cpSabreCIRead/loginID/>
+
+/cb-cp-sabreci/v1/creditprofile/cpSabreCIRead/uniqueId/<http://cb-cp-sabrec=
+i/v1/creditprofile/cpSabreCIRead/uniqueId/>
+
+/cb-cp-sabreci/v1/creditprofile/cpSabreCIProfileSearch/<http://cb-cp-sabrec=
+i/v1/creditprofile/cpSabreCIProfileSearch/>
+
+/cb-cp-sabreci/v1/creditprofile/cpSabreCIProfileSearch/emailID/
+
+
+
+Qtest Execution link
+
+https://jetblue.qtestnet.com/p/105724/portal/project#id=3D67118926&object=
+=3D0&tab=3Dtestdesign<https://nam11.safelinks.protection.outlook.com/?url=
+=3Dhttps%3A%2F%2Fjetblue.qtestnet.com%2Fp%2F105724%2Fportal%2Fproject%23id%=
+3D67118926%26object%3D0%26tab%3Dtestdesign&data=3D05%7C02%7CSanthoshkumar.S=
+ankar%40jetblue.com%7Ca3858a7121614b0f168508ddafeb1007%7Cd92170739527487c96=
+87b6bbd93ed621%7C0%7C0%7C638860146315068206%7CUnknown%7CTWFpbGZsb3d8eyJFbXB=
+0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIj=
+oyfQ%3D%3D%7C0%7C%7C%7C&sdata=3DY%2FwdTfDwWlq3n3368TFOdzI7CtP0IHvNkD%2Bwxet=
+B93w%3D&reserved=3D0>
+
+
+
+Mabl Run Reoprt
+
+https://app.mabl.com/workspaces/QCtR4GyyyfwVcnWUb3wYxA-w/output/test-runs/l=
+7FZddOZuLcaJxsLxnQzTw-jr?test_type=3Dapi#L-1<https://nam11.safelinks.protec=
+tion.outlook.com/?url=3Dhttps%3A%2F%2Fapp.mabl.com%2Fworkspaces%2FQCtR4Gyyy=
+fwVcnWUb3wYxA-w%2Foutput%2Ftest-runs%2Fl7FZddOZuLcaJxsLxnQzTw-jr%3Ftest_typ=
+e%3Dapi%23L-1&data=3D05%7C02%7CSanthoshkumar.Sankar%40jetblue.com%7Ca3858a7=
+121614b0f168508ddafeb1007%7Cd92170739527487c9687b6bbd93ed621%7C0%7C0%7C6388=
+60146315083412%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAu=
+MDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=
+=3D3AbuB4WMnjNGn9%2FvCb6yYl%2BEvqPGwOJtXdeb16%2Fm9Ms%3D&reserved=3D0>
+
+
+
+Comments or outstanding issues
+
+=95         This Service has been tested in non-prod with all possible scen=
+ario=92s .
+
+Defect ID :
+
+NA
+
+Priority
+
+Summary
+
+Comment
+
+Summary of the Key Activities Performed
+
+NA
+
+NA
+
+NA
+
+NA
+
+NA
+
+
+
+
+
+Should you need any additional information, please do let me know.
+
+
+
+Thanks,
+
+Hari
+
+
+--_000_BL4PR06MB957400218633EFF94AEE3647EB7CABL4PR06MB9574namp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"Microsoft YaHei UI";
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@Microsoft YaHei UI";}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-priority:9;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#467886;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Aptos",sans-serif;
+	color:windowtext;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-link:"Heading 1";
+	font-family:"Times New Roman",serif;
+	mso-ligatures:none;
+	font-weight:bold;}
+p.xmsonormal, li.xmsonormal, div.xmsonormal
+	{mso-style-name:x_msonormal;
+	mso-style-priority:99;
+	margin:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.xmsolistparagraph, li.xmsolistparagraph, div.xmsolistparagraph
+	{mso-style-name:x_msolistparagraph;
+	mso-style-priority:99;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.xxmsonormal, li.xxmsonormal, div.xxmsonormal
+	{mso-style-name:x_xmsonormal;
+	mso-style-priority:99;
+	margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.xxxxmsonormal, li.xxxxmsonormal, div.xxxxmsonormal
+	{mso-style-name:x_xxxmsonormal;
+	mso-style-priority:99;
+	margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.xxxmsonormal, li.xxxmsonormal, div.xxxmsonormal
+	{mso-style-name:x_xxmsonormal;
+	mso-style-priority:99;
+	margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.xxxxmsonormal0, li.xxxxmsonormal0, div.xxxxmsonormal0
+	{mso-style-name:x_xxxmsonormal0;
+	mso-style-priority:99;
+	margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.xxcontentpasted0
+	{mso-style-name:x_xcontentpasted0;}
+span.xxcontentpasted4
+	{mso-style-name:x_xcontentpasted4;}
+span.xxcontentpasted2
+	{mso-style-name:x_xcontentpasted2;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#467886" vlink=3D"#96607D" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"xxmsonormal" style=3D"background:white"><span style=3D"color:bl=
+ack">Hi Team,</span><o:p></o:p></p>
+<p class=3D"xxxxmsonormal" style=3D"background:white"><span class=3D"xxcont=
+entpasted0"><span style=3D"color:black">&nbsp;</span></span><o:p></o:p></p>
+<h1 style=3D"margin:0in;line-height:21.0pt"><span style=3D"font-size:9.0pt;=
+font-family:&quot;Microsoft YaHei UI&quot;,sans-serif;color:black">Please s=
+ee the
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&=
+quot;,sans-serif">below &nbsp;</span><span style=3D"font-size:9.0pt;font-fa=
+mily:&quot;Microsoft YaHei UI&quot;,sans-serif;font-weight:normal">EQA SIGN=
+OFF from non-prod Env for
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&=
+quot;,sans-serif">WEB-3162 Sabre CI Read Profile - Enhancement (Add another=
+ endpoint search via Email).</span><span style=3D"font-size:11.0pt;font-fam=
+ily:&quot;Calibri&quot;,sans-serif"><o:p></o:p></span></h1>
+<p class=3D"xxxmsonormal">&nbsp;<o:p></o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"1114" style=3D"width:835.5pt;margin-left:8.6pt;border-colla=
+pse:collapse;box-sizing:border-box" id=3D"x_x_tableSelected0">
+<tbody>
+<tr style=3D"height:16.0pt">
+<td width=3D"266" nowrap=3D"" colspan=3D"2" rowspan=3D"2" style=3D"width:19=
+9.7pt;border:solid windowtext 1.0pt;border-bottom:solid black 1.0pt;backgro=
+und:#080A6C;padding:0in 5.4pt 0in 5.4pt;height:16.0pt;box-sizing:border-box=
+">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:white">Service Name</span></b><o:p></o:p></p>
+</td>
+<td width=3D"344" nowrap=3D"" colspan=3D"3" rowspan=3D"2" style=3D"width:25=
+8.35pt;border-top:solid windowtext 1.0pt;border-left:none;border-bottom:sol=
+id black 1.0pt;border-right:solid black 1.0pt;background:#080A6C;padding:0i=
+n 5.4pt 0in 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><span style=3D"color:white">cpSabreCIRead Servi=
+ce</span><o:p></o:p></p>
+</td>
+<td width=3D"327" colspan=3D"2" rowspan=3D"2" style=3D"width:245.6pt;border=
+-top:solid windowtext 1.0pt;border-left:none;border-bottom:solid black 1.0p=
+t;border-right:solid black 1.0pt;background:#080A6C;padding:0in 5.4pt 0in 5=
+.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:white">Testing Summary</span></b><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" rowspan=3D"2" style=3D"width:128.2pt;border-t=
+op:solid windowtext 1.0pt;border-left:none;border-bottom:solid black 1.0pt;=
+border-right:solid windowtext 1.0pt;background:#080A6C;padding:0in 5.4pt 0i=
+n 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif=
+;color:white">Non-prod</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.0pt=
+;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.0pt">
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.0pt=
+;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"1109" nowrap=3D"" colspan=3D"8" style=3D"width:831.85pt;border=
+-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid black 1.0pt;background:#004A82;padding:0in 5.4pt =
+0in 5.4pt;height:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">&nbsp;</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.0pt">
+<td width=3D"266" nowrap=3D"" colspan=3D"2" rowspan=3D"2" style=3D"width:19=
+9.7pt;border-top:none;border-left:solid windowtext 1.0pt;border-bottom:none=
+;border-right:solid windowtext 1.0pt;background:#DCE6F1;padding:0in 5.4pt 0=
+in 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:black">EQA Sign OFF</span></b><o:p></o:p></p>
+</td>
+<td width=3D"159" nowrap=3D"" colspan=3D"2" rowspan=3D"2" style=3D"width:11=
+9.6pt;border:none;border-right:solid windowtext 1.0pt;background:#DCE6F1;pa=
+dding:0in 5.4pt 0in 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">Yes</span><o:p></o:p></p>
+</td>
+<td width=3D"185" nowrap=3D"" rowspan=3D"2" style=3D"width:138.75pt;border:=
+none;border-right:solid windowtext 1.0pt;background:#DCE6F1;padding:0in 5.4=
+pt 0in 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:black">Engineer</span></b><o:p></o:p></p>
+</td>
+<td width=3D"167" rowspan=3D"2" style=3D"width:125.35pt;border:none;border-=
+right:solid windowtext 1.0pt;background:#DCE6F1;padding:0in 5.4pt 0in 5.4pt=
+;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">Hari</span><o:p></o:p></p>
+</td>
+<td width=3D"160" nowrap=3D"" rowspan=3D"2" style=3D"width:120.25pt;border:=
+none;border-right:solid windowtext 1.0pt;background:#DCE6F1;padding:0in 5.4=
+pt 0in 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:black">Date</span></b><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" rowspan=3D"2" style=3D"width:128.2pt;border:n=
+one;border-right:solid windowtext 1.0pt;background:#DCE6F1;padding:0in 5.4p=
+t 0in 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">20/06/2025</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.0pt=
+;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.0pt">
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.0pt=
+;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.25pt">
+<td width=3D"1109" nowrap=3D"" colspan=3D"8" style=3D"width:831.85pt;border=
+-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid black 1.0pt;background:#004A82;padding:0in 5.4pt =
+0in 5.4pt;height:16.25pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><b><span style=3D"font-size:9.0pt;font-family:&=
+quot;Microsoft YaHei UI&quot;,sans-serif;color:white">Summarizing Status</s=
+pan></b><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.25p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"938" colspan=3D"7" style=3D"width:703.65pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border=
+-right:solid black 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;heigh=
+t:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Microsoft YaHei UI&quot;,sans-serif;color:black">Number of Cycles Complet=
+ed</span><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-si=
+zing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">1</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"938" colspan=3D"7" style=3D"width:703.65pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border=
+-right:solid black 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;heigh=
+t:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Microsoft YaHei UI&quot;,sans-serif;color:black">Total Number of Scenario=
+s per cycle</span><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-si=
+zing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">20</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"938" colspan=3D"7" style=3D"width:703.65pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border=
+-right:solid black 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;heigh=
+t:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Microsoft YaHei UI&quot;,sans-serif;color:black">Number of Scenarios Pass=
+ed</span><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-si=
+zing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">20</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"938" colspan=3D"7" style=3D"width:703.65pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border=
+-right:solid black 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;heigh=
+t:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Microsoft YaHei UI&quot;,sans-serif;color:black">Number of Scenarios Fail=
+ed</span><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-si=
+zing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">0</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"938" colspan=3D"7" style=3D"width:703.65pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border=
+-right:solid black 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;heigh=
+t:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Microsoft YaHei UI&quot;,sans-serif;color:black">Number of Scenarios Not =
+Applicable</span><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-si=
+zing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">0</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"938" colspan=3D"7" style=3D"width:703.65pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border=
+-right:solid black 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;heigh=
+t:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Microsoft YaHei UI&quot;,sans-serif;color:black">% Completion</span><o:p>=
+</o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-si=
+zing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">100</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:17.0pt">
+<td width=3D"228" nowrap=3D"" style=3D"width:171.0pt;border-top:none;border=
+-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid black 1.0pt;background:#ACB9CA;padding:0in 5.4pt 0in 5.4pt;height=
+:17.0pt;box-sizing:border-box">
+<p class=3D"xxmsonormal" align=3D"center" style=3D"text-align:center"><span=
+ class=3D"xxcontentpasted4"><b><span style=3D"color:black;background:#ACB9C=
+A">JIRA ticket<o:p></o:p></span></b></span></p>
+</td>
+<td width=3D"881" colspan=3D"7" style=3D"width:660.85pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid black=
+ 1.0pt;background:#E7E6E6;padding:0in 0in 0in 0in;height:17.0pt">
+<p class=3D"xxmsonormal"><span style=3D"color:black"><a href=3D"https://nam=
+11.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fjetblueairways.atl=
+assian.net%2Fbrowse%2FWEB-3162&amp;data=3D05%7C02%7CSanthoshkumar.Sankar%40=
+jetblue.com%7Ca3858a7121614b0f168508ddafeb1007%7Cd92170739527487c9687b6bbd9=
+3ed621%7C0%7C0%7C638860146315040226%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGk=
+iOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%=
+3D%7C0%7C%7C%7C&amp;sdata=3DpQU%2FcWlmqbgbhf%2BoDZ37wyAk9LEX5qmQBAIRZHIm7I0=
+%3D&amp;reserved=3D0" originalsrc=3D"https://jetblueairways.atlassian.net/b=
+rowse/WEB-3162">https://jetblueairways.atlassian.net/browse/WEB-3162</a></s=
+pan><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:17.0pt=
+">
+<p class=3D"xmsonormal"><o:p>&nbsp;</o:p></p>
+</td>
+</tr>
+<tr style=3D"height:17.0pt">
+<td width=3D"228" nowrap=3D"" style=3D"width:171.0pt;border-top:none;border=
+-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid black 1.0pt;background:#ACB9CA;padding:0in 5.4pt 0in 5.4pt;height=
+:17.0pt">
+<p class=3D"xxmsonormal" align=3D"center" style=3D"text-align:center"><span=
+ class=3D"xxcontentpasted4"><b><span style=3D"color:black;background:#ACB9C=
+A">Base URL</span></b></span><o:p></o:p></p>
+</td>
+<td width=3D"881" colspan=3D"7" style=3D"width:660.85pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid black=
+ 1.0pt;background:#E7E6E6;padding:0in 0in 0in 0in;height:17.0pt">
+<p class=3D"xxmsonormal"><a href=3D"https://loyalty-api-nprd.jetblue.com/">=
+https://loyalty-api-nprd.jetblue.com</a><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:17.0pt=
+">
+<p class=3D"xmsonormal">&nbsp;<o:p></o:p></p>
+</td>
+</tr>
+<tr style=3D"height:17.0pt">
+<td width=3D"228" nowrap=3D"" style=3D"width:171.0pt;border-top:none;border=
+-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid black 1.0pt;background:#ACB9CA;padding:0in 5.4pt 0in 5.4pt;height=
+:17.0pt">
+<p class=3D"xxmsonormal" align=3D"center" style=3D"text-align:center"><span=
+ class=3D"xxcontentpasted4"><b><span style=3D"font-size:9.0pt;font-family:&=
+quot;Microsoft YaHei UI&quot;,sans-serif;color:black;background:#ACB9CA">E<=
+/span><span style=3D"color:black;background:#ACB9CA">ndpoint</span></b></sp=
+an><span class=3D"xxcontentpasted4"><b><span style=3D"font-size:9.0pt;font-=
+family:&quot;Microsoft YaHei UI&quot;,sans-serif;color:black;background:#AC=
+B9CA"><o:p></o:p></span></b></span></p>
+</td>
+<td width=3D"881" colspan=3D"7" style=3D"width:660.85pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid black=
+ 1.0pt;background:#E7E6E6;padding:0in 0in 0in 0in;height:17.0pt">
+<p class=3D"xxmsonormal"><span style=3D"color:black"><a href=3D"http://cb-c=
+p-sabreci/v1/creditprofile/cpSabreCIRead/loginID/">/cb-cp-sabreci/v1/credit=
+profile/cpSabreCIRead/loginID/</a></span><o:p></o:p></p>
+<p class=3D"xxmsonormal"><span style=3D"color:black"><a href=3D"http://cb-c=
+p-sabreci/v1/creditprofile/cpSabreCIRead/uniqueId/">/cb-cp-sabreci/v1/credi=
+tprofile/cpSabreCIRead/uniqueId/</a>
+</span><o:p></o:p></p>
+<p class=3D"xxmsonormal"><a href=3D"http://cb-cp-sabreci/v1/creditprofile/c=
+pSabreCIProfileSearch/">/cb-cp-sabreci/v1/creditprofile/cpSabreCIProfileSea=
+rch/</a><span style=3D"color:black"><o:p></o:p></span></p>
+<p class=3D"xxmsonormal"><span style=3D"color:black">/cb-cp-sabreci/v1/cred=
+itprofile/cpSabreCIProfileSearch/emailID/
+</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:17.0pt=
+">
+<p class=3D"xmsonormal"><o:p>&nbsp;</o:p></p>
+</td>
+</tr>
+<tr style=3D"height:17.0pt">
+<td width=3D"228" nowrap=3D"" style=3D"width:171.0pt;border-top:none;border=
+-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid black 1.0pt;background:#ACB9CA;padding:0in 5.4pt 0in 5.4pt;height=
+:17.0pt">
+<p class=3D"xxmsonormal" align=3D"center" style=3D"text-align:center"><span=
+ class=3D"xxcontentpasted4"><b><span style=3D"font-size:9.0pt;font-family:&=
+quot;Microsoft YaHei UI&quot;,sans-serif;color:black;background:#ACB9CA">Qt=
+est Execution link<o:p></o:p></span></b></span></p>
+</td>
+<td width=3D"881" colspan=3D"7" style=3D"width:660.85pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid black=
+ 1.0pt;background:#E7E6E6;padding:0in 0in 0in 0in;height:17.0pt">
+<p class=3D"xxmsonormal"><span style=3D"color:black"><a href=3D"https://nam=
+11.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fjetblue.qtestnet.c=
+om%2Fp%2F105724%2Fportal%2Fproject%23id%3D67118926%26object%3D0%26tab%3Dtes=
+tdesign&amp;data=3D05%7C02%7CSanthoshkumar.Sankar%40jetblue.com%7Ca3858a712=
+1614b0f168508ddafeb1007%7Cd92170739527487c9687b6bbd93ed621%7C0%7C0%7C638860=
+146315068206%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMD=
+AwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sda=
+ta=3DY%2FwdTfDwWlq3n3368TFOdzI7CtP0IHvNkD%2BwxetB93w%3D&amp;reserved=3D0" o=
+riginalsrc=3D"https://jetblue.qtestnet.com/p/105724/portal/project#id=3D671=
+18926&amp;object=3D0&amp;tab=3Dtestdesign">https://jetblue.qtestnet.com/p/1=
+05724/portal/project#id=3D67118926&amp;object=3D0&amp;tab=3Dtestdesign</a><=
+/span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:17.0pt=
+">
+<p class=3D"xmsonormal"><o:p>&nbsp;</o:p></p>
+</td>
+</tr>
+<tr style=3D"height:17.0pt">
+<td width=3D"228" nowrap=3D"" style=3D"width:171.0pt;border-top:none;border=
+-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-ri=
+ght:solid black 1.0pt;background:#ACB9CA;padding:0in 5.4pt 0in 5.4pt;height=
+:17.0pt">
+<p class=3D"xxmsonormal" align=3D"center" style=3D"text-align:center"><span=
+ class=3D"xxcontentpasted4"><b><span style=3D"font-size:9.0pt;font-family:&=
+quot;Microsoft YaHei UI&quot;,sans-serif;color:black;background:#ACB9CA">M<=
+/span><span style=3D"color:black;background:#ACB9CA">abl
+ Run Reoprt</span></b></span><span class=3D"xxcontentpasted4"><b><span styl=
+e=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,sans-serif;=
+color:black;background:#ACB9CA"><o:p></o:p></span></b></span></p>
+</td>
+<td width=3D"881" colspan=3D"7" style=3D"width:660.85pt;border-top:none;bor=
+der-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid black=
+ 1.0pt;background:#E7E6E6;padding:0in 0in 0in 0in;height:17.0pt">
+<p class=3D"xxmsonormal"><span style=3D"color:black"><a href=3D"https://nam=
+11.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fapp.mabl.com%2Fwor=
+kspaces%2FQCtR4GyyyfwVcnWUb3wYxA-w%2Foutput%2Ftest-runs%2Fl7FZddOZuLcaJxsLx=
+nQzTw-jr%3Ftest_type%3Dapi%23L-1&amp;data=3D05%7C02%7CSanthoshkumar.Sankar%=
+40jetblue.com%7Ca3858a7121614b0f168508ddafeb1007%7Cd92170739527487c9687b6bb=
+d93ed621%7C0%7C0%7C638860146315083412%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hc=
+GkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3=
+D%3D%7C0%7C%7C%7C&amp;sdata=3D3AbuB4WMnjNGn9%2FvCb6yYl%2BEvqPGwOJtXdeb16%2F=
+m9Ms%3D&amp;reserved=3D0" originalsrc=3D"https://app.mabl.com/workspaces/QC=
+tR4GyyyfwVcnWUb3wYxA-w/output/test-runs/l7FZddOZuLcaJxsLxnQzTw-jr?test_type=
+=3Dapi#L-1">https://app.mabl.com/workspaces/QCtR4GyyyfwVcnWUb3wYxA-w/output=
+/test-runs/l7FZddOZuLcaJxsLxnQzTw-jr?test_type=3Dapi#L-1</a><o:p></o:p></sp=
+an></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:17.0pt=
+">
+<p class=3D"xmsonormal"><o:p>&nbsp;</o:p></p>
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"1109" nowrap=3D"" colspan=3D"8" style=3D"width:831.85pt;border=
+-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid windowtext=
+ 1.0pt;border-right:solid black 1.0pt;background:#004A82;padding:0in 5.4pt =
+0in 5.4pt;height:16.75pt">
+<p class=3D"xxxxmsonormal0"><b><span style=3D"font-size:9.0pt;font-family:&=
+quot;Microsoft YaHei UI&quot;,sans-serif;color:white">Comments or outstandi=
+ng issues</span></b><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.0pt">
+<td width=3D"1109" colspan=3D"8" style=3D"width:831.85pt;border-top:none;bo=
+rder-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid blac=
+k 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.0pt;box-sizing:border-box">
+<p class=3D"xmsolistparagraph" style=3D"text-indent:-.25in"><span style=3D"=
+font-size:10.0pt;font-family:Symbol">=B7</span><span style=3D"font-size:7.0=
+pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&=
+quot;,sans-serif;color:black">This Service has been tested in
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&=
+quot;,sans-serif">non-prod<span style=3D"color:black"> with all possible sc=
+enario=92s .</span></span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.0pt=
+;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.0pt">
+<td width=3D"1109" colspan=3D"8" style=3D"width:831.85pt;border-top:none;bo=
+rder-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;borde=
+r-right:solid black 1.0pt;background:#004A82;padding:0in 5.4pt 0in 5.4pt;he=
+ight:16.0pt;box-sizing:border-box">
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.0pt=
+;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"1109" nowrap=3D"" colspan=3D"8" style=3D"width:831.85pt;border=
+:solid windowtext 1.0pt;border-top:none;background:#DCE6F1;padding:0in 5.4p=
+t 0in 5.4pt;height:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0"><b><span style=3D"font-size:9.0pt;font-family:&=
+quot;Microsoft YaHei UI&quot;,sans-serif;color:black">Defect ID&nbsp;<span =
+class=3D"xxcontentpasted2"><span style=3D"background:#DCE6F1">:&nbsp;&nbsp;=
+&nbsp;
+</span></span></span></b><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"266" nowrap=3D"" colspan=3D"2" style=3D"width:199.7pt;border:s=
+olid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:16=
+.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">NA</span><o:p></o:p></p>
+</td>
+<td width=3D"159" nowrap=3D"" colspan=3D"2" style=3D"width:119.6pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;background:#DCE6F1;padding:0in 5.4pt 0in 5.4pt;heigh=
+t:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:black">Priority</span></b><o:p></o:p></p>
+</td>
+<td width=3D"512" nowrap=3D"" colspan=3D"3" style=3D"width:384.35pt;border-=
+top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right=
+:solid black 1.0pt;background:#DCE6F1;padding:0in 5.4pt 0in 5.4pt;height:16=
+.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:black">Summary</span></b><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;background:#DCE6F1;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-=
+sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:black">Comment</span></b><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.75pt">
+<td width=3D"266" nowrap=3D"" colspan=3D"2" style=3D"width:199.7pt;border-t=
+op:none;border-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1=
+.0pt;border-right:solid black 1.0pt;background:#004A82;padding:0in 5.4pt 0i=
+n 5.4pt;height:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><b=
+><span style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,=
+sans-serif;color:white">Summary of the Key Activities Performed</span></b><=
+o:p></o:p></p>
+</td>
+<td width=3D"159" nowrap=3D"" colspan=3D"2" style=3D"width:119.6pt;border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:=
+solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-sizin=
+g:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">NA</span><o:p></o:p></p>
+</td>
+<td width=3D"185" nowrap=3D"" style=3D"width:138.75pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-sizing:border-box"=
+>
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">NA</span><o:p></o:p></p>
+</td>
+<td width=3D"167" nowrap=3D"" style=3D"width:125.35pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-sizing:border-box"=
+>
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">NA</span><o:p></o:p></p>
+</td>
+<td width=3D"160" nowrap=3D"" style=3D"width:120.25pt;border-top:none;borde=
+r-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowt=
+ext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-sizing:border-box"=
+>
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">NA</span><o:p></o:p></p>
+</td>
+<td width=3D"171" nowrap=3D"" style=3D"width:128.2pt;border-top:none;border=
+-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowte=
+xt 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.75pt;box-sizing:border-box">
+<p class=3D"xxxxmsonormal0" align=3D"center" style=3D"text-align:center"><s=
+pan style=3D"font-size:9.0pt;font-family:&quot;Microsoft YaHei UI&quot;,san=
+s-serif;color:black">NA</span><o:p></o:p></p>
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.75p=
+t;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:16.5pt">
+<td width=3D"1109" nowrap=3D"" colspan=3D"8" style=3D"width:831.85pt;border=
+-top:none;border-left:solid windowtext 1.0pt;border-bottom:none;border-righ=
+t:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:16.5pt;box-sizing:bo=
+rder-box">
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.5pt=
+;box-sizing:border-box">
+</td>
+</tr>
+<tr style=3D"height:98.5pt">
+<td width=3D"1109" colspan=3D"8" style=3D"width:831.85pt;border-top:none;bo=
+rder-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;borde=
+r-right:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:98.5pt;box-siz=
+ing:border-box">
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:98.5pt=
+"></td>
+</tr>
+<tr style=3D"height:16.5pt">
+<td width=3D"266" colspan=3D"2" style=3D"width:199.7pt;padding:0in 0in 0in =
+0in;height:16.5pt;box-sizing:border-box">
+</td>
+<td width=3D"1" style=3D"width:1.0pt;padding:0in 0in 0in 0in;height:16.5pt;=
+box-sizing:border-box">
+</td>
+<td width=3D"158" style=3D"width:118.6pt;padding:0in 0in 0in 0in;height:16.=
+5pt;box-sizing:border-box">
+</td>
+<td width=3D"185" style=3D"width:138.75pt;padding:0in 0in 0in 0in;height:16=
+.5pt;box-sizing:border-box">
+</td>
+<td width=3D"167" style=3D"width:125.35pt;padding:0in 0in 0in 0in;height:16=
+.5pt;box-sizing:border-box">
+</td>
+<td width=3D"160" style=3D"width:120.25pt;padding:0in 0in 0in 0in;height:16=
+.5pt;box-sizing:border-box">
+</td>
+<td width=3D"171" style=3D"width:128.2pt;padding:0in 0in 0in 0in;height:16.=
+5pt;box-sizing:border-box">
+</td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in;height:16.5pt=
+;box-sizing:border-box">
+<p class=3D"xxxmsonormal"><span style=3D"font-size:12.0pt;font-family:&quot=
+;Times New Roman&quot;,serif">&nbsp;</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"228" style=3D"width:171.0pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"38" style=3D"width:28.7pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"1" style=3D"width:1.0pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"158" style=3D"width:118.6pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"185" style=3D"width:138.75pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"167" style=3D"width:125.35pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"160" style=3D"width:120.25pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"171" style=3D"width:128.2pt;padding:0in 0in 0in 0in"></td>
+<td width=3D"5" style=3D"width:3.65pt;padding:0in 0in 0in 0in"></td>
+</tr>
+</tbody>
+</table>
+<p class=3D"xxxmsonormal"><span style=3D"color:white">&nbsp;</span><o:p></o=
+:p></p>
+<p class=3D"xxxmsonormal">Should you need any additional information, pleas=
+e do let me know<span style=3D"font-family:&quot;Times New Roman&quot;,seri=
+f">.</span><o:p></o:p></p>
+<p class=3D"xxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxmsonormal">Thanks,<o:p></o:p></p>
+<p class=3D"xxmsonormal" style=3D"background:white"><span style=3D"font-siz=
+e:12.0pt;color:black">Hari</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Aptos&quot;,sans-se=
+rif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_BL4PR06MB957400218633EFF94AEE3647EB7CABL4PR06MB9574namp_--
